@@ -1,0 +1,236 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+	margin: auto; 
+}
+/* MENU */
+
+nav
+{
+	display: flex;
+justify-content: flex-end;
+margin-top: 15px;
+margin-right: 10px; 
+
+	
+}
+
+.navigation
+{
+display: inline-flex;
+justify-content: space-around;
+width: 	300px;
+height: 30px;
+overflow: hidden;
+align-items: center;
+}
+
+
+a:link
+{
+	text-decoration: none;
+}	  
+a
+{
+	text-decoration: none;
+}	  
+.app
+{
+    cursor: pointer;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+#apps 
+{
+	width:100%;
+}
+.connexion
+{
+background: #4C8BF5;
+border:none;
+padding: 20px;
+font-stretch: bold;
+}
+#con
+{
+	color: white;
+}
+
+/*  Section  */
+
+section
+{
+	width: 600px;
+	height: 300px;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    text-align: center;
+}
+
+
+#google
+{
+width: 272px;
+margin-bottom: 25px;
+}
+
+.rechercheborder {
+	display:flex;
+	display:inline-flex;
+width: 584px;
+height:46px;
+text-align:center;
+border:solid 1px lightgrey;
+border-radius:50px;
+margin-bottom:25px;
+}
+
+#recherche
+{
+	background:transparent;
+	border:none;
+width: 487px;
+height:34px;
+padding:5px 8px 0px 14px;
+font-size:15px;
+}
+
+#recherche:focus {
+border:none;
+outline:none;
+}
+
+#loupe {
+	width:45px;
+	height:40px;
+	z-index:-15;
+	margin-top:3px;
+	margin-left:5px;
+}
+
+#micro {
+width:45px;
+height:30px;
+z-index:-15;
+margin-top:7px;
+margin-right:3px;
+}
+
+#RG
+{
+width: 150px;
+}
+
+
+#duo
+{
+	margin-bottom: 18px;
+}
+
+#Chance
+{
+width: 150px;
+}
+#block
+{
+border:solid 1px;
+width: 264px;
+padding: 5px;
+font-size: small;
+}
+
+
+/*  Footer  */
+
+
+footer
+{
+background-color: #F2F2F2;
+color: rgba(0,0,0,.54); 
+position:fixed;
+    bottom:0;
+    height: 80px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#france
+{
+color: rgba(0,0,0,.54);
+border-top: solid 1px lightgrey;
+border-bottom:solid 1px lightgrey;
+height: 42px;
+margin-left: 15px;
+}
+
+#bottom
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 8px;
+
+}
+
+#publicité
+{
+color: rgba(0,0,0,.54);
+}
+
+#Entreprise
+{
+color: rgba(0,0,0,.54);
+}
+
+#propos
+{
+color: rgba(0,0,0,.54);
+}
+
+#com
+{
+color: rgba(0,0,0,.54);
+}
+
+#neutre
+{
+color: rgba(0,0,0,.54);
+}
+
+#leaf
+{
+color: rgba(0,0,0,.54);
+width:15px; 
+}
+
+#Info
+{
+color: rgba(0,0,0,.54);
+}
+
+#confident
+{
+color: rgba(0,0,0,.54);
+}
+
+#conditions
+{
+color: rgba(0,0,0,.54);
+}
+
+#paramétres
+{
+color: rgba(0,0,0,.54);
+}
+	
